@@ -1,12 +1,53 @@
-name = "Whisper"
-license = "MIT"
-licenselink = "https://github.com/zerostatic/hugo-whisper-theme/blob/master/LICENSE"
-description = "Whisper is a minimal documentation theme built for Hugo. The design and functionality is intentionally minimal."
-homepage = "https://github.com/zerostatic/hugo-whisper-theme"
-tags = ["documentation","responsive","minimal","clean","bootstrap","zerostatic"]
-features = ["docs"]
-min_version = "0.74.3"
+baseURL = "www.landofthecrane.com"
+languageCode = "en-us"
+title = "Land of the Crane"
+themesDir = "themes"
+theme = "hugo-whisper-theme"
 
-[author]
-  name = "Robert Austin"
-  homepage = "https://www.zerostatic.io"
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Setting"
+    url = "/setting/"
+    weight = 2
+
+[[menu.main]]
+    name = "Campaigns"
+    url = "/campaigns/"
+    weight = 3
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/setting'
+  homepage_button_text = 'Explore the Setting'
+  homepage_intro = 'A feudal Japan-inspired fantasy campaign setting for the world’s greatest role-playing game.'
+  homepage_image = '/images/terminal.gif'
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "A feudal Japan-inspired fantasy campaign setting for the world’s greatest role-playing game."
+    meta_og_title = "Land of the Crane"
+    meta_og_type = "website"
+    meta_og_url = "https://landofthecrane.com"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "A feudal Japan-inspired fantasy campaign setting for the world’s greatest role-playing game."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@carpedavid"
+    meta_twitter_creator = "@carpedavid"
+
+  [params.logo]
+      mobile = "/images/icon_color.png"
+      standard  = "/images/icon_color.png"
