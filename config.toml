@@ -1,4 +1,4 @@
-baseURL = "www.landofthecrane.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Land of the Crane"
 themesDir = "themes"
