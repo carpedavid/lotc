@@ -32,7 +32,7 @@ summaryLength = 30
   homepage_button_link = '/setting'
   homepage_button_text = 'Explore the Setting'
   homepage_intro = 'A feudal Japan-inspired fantasy campaign setting for the world’s greatest role-playing game.'
-  homepage_image = '/images/terminal.gif'
+  homepage_image = '/images/cherry_blossoms.jpg'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
@@ -50,4 +50,4 @@ summaryLength = 30
 
   [params.logo]
       mobile = "/images/icon_color.png"
-      standard  = "/images/icon_color.png"
+      standard  = "/images/logo_h.svg"
