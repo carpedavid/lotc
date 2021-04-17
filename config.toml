@@ -26,6 +26,11 @@ summaryLength = 30
     name = "Campaigns"
     url = "/campaigns/"
     weight = 3
+    
+[[menu.main]]
+    name = "Yōkai"
+    url = "/yokai/"
+    weight = 4
 
 [params]
   google_analytics_id=""
@@ -33,6 +38,7 @@ summaryLength = 30
   homepage_button_text = 'Explore the Setting'
   homepage_intro = 'A feudal Japan-inspired fantasy campaign setting for the world’s greatest role-playing game.'
   homepage_image = '/images/cherry_blossoms.jpg'
+  mainSections = ["setting", "campaigns", "yokai"]
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
@@ -49,5 +55,5 @@ summaryLength = 30
     meta_twitter_creator = "@carpedavid"
 
   [params.logo]
-      mobile = "/images/icon_color.png"
+      mobile = "/images/logo_h.svg"
       standard  = "/images/logo_h.svg"

@@ -16,7 +16,6 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ block "meta_tags" . }}{{end}}
-  <link rel="icon" href="{{ "favicon.png" | absURL}}">
 
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
@@ -57,8 +56,10 @@
       </div>
     </div>
     {{ else }}
-    {{ block "main" . }}
-    {{ end }}
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+          {{ block "main" . }}
+          {{ end }}
+    </div>
     {{ end}}
   </div>
 

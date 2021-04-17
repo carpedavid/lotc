@@ -7414,7 +7414,7 @@ p {
   @media (min-width: 576px) {
     .logo {
       display: block;
-      width: 200px; } }
+      width: 400px; } }
   .logo img {
     width: 100%;
     height: auto; }
@@ -7425,7 +7425,7 @@ p {
 
 .logo-mobile {
   display: block;
-  width: 54px; }
+  width: 100px; }
   @media (min-width: 576px) {
     .logo-mobile {
       display: none; } }
@@ -7733,6 +7733,10 @@ p {
   .content img {
     max-width: 100%;
     height: auto; }
+  .content figcaption {
+    margin-bottom: 20px; }
+    .content figcaption p {
+      font-style: italic; }
 
 .strip {
   background-repeat: no-repeat; }
