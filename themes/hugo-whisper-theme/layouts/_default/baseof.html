@@ -27,6 +27,18 @@
 
   {{ block "header_css" . }}{{ end }}
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+  <script type="text/javascript">
+    algoliasearchNetlify({
+      appId: 'Y3C34O2PE9',
+      apiKey: '4f1b775691e37d5db93016583eea95f7',
+      siteId: '0dd75b0f-225f-4c5c-9c48-128c237d1698',
+      branch: 'master',
+      selector: 'div#search',
+    });
+  </script>
+
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
