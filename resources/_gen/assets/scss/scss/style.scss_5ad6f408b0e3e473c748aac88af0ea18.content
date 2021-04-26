@@ -7606,7 +7606,7 @@ p {
 .title {
   font-size: 2.7rem;
   line-height: 1.1;
-  font-family: salamat, sans-serif;
+  font-family: gizmo, sans-serif;
   letter-spacing: -0.2px;
   font-weight: 100;
   margin-bottom: 20px; }
