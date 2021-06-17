@@ -6,7 +6,7 @@ draft: false
 
 # Creative Commons
 
-Unless otherwise specified, all text is copyright 2020 by [David Garrett](https://aboutdave.info), and is released under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Unless otherwise specified, all text is copyright 2021 by [David Garrett](https://aboutdave.info), and is released under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 Where applicable, images and illustrations are used with permission of the artist and are attributed back to the source. All other images are provided free of use by [Pexels](http://pexels.com/) or [Unsplash](http://unsplash.com/), or are commissioned works whose digital rights are owned by David Garrett.
 
