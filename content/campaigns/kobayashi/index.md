@@ -11,4 +11,4 @@ My current gaming group is playing a team of four young women whose clan, Tokuga
 
 I’ve compiled the first campaign arc, which takes the characters from level 1 to level 10 in a handy, dandy PDF:
 
-[Kobayashi the Devourer, the Complete Eaters of the Dead](https://chartreuse-tuna-apjk.squarespace.com/s/Kobayashi-EotD.pdf)
+[Kobayashi the Devourer, the Complete Eaters of the Dead](https://landofthecrane.s3-us-west-2.amazonaws.com/Kobayashi%20EotD.pdf)
